@@ -24,8 +24,21 @@
     });
 
     const marker = new maplibregl.Marker()
-        .setLngLat([0, 0])
+        .setLngLat([-25 , 0])
         .addTo(map);
+
+     const marker2 = new maplibregl.Marker()
+        .setLngLat([25, 0])
+        .addTo(map);
+
+     const marker3 = new maplibregl.Marker()
+        .setLngLat([0, 25])
+        .addTo(map);
+
+    const marker4 = new maplibregl.Marker()
+        .setLngLat([0, -25])
+        .addTo(map);
+
 </script>
 </body>
 </html>
